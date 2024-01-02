@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.demo-bg {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTxLja_nlqu_uMZ3nu_mBWLvRStUpuk8DReQ&usqp=CAU);
+    background-size: cover;
+    position: relative; /* Add this line to make the container a positioning context */
+}
+
+.demo-bg p {
+    position: absolute;
+    bottom: 30%; /* Adjust the top position to center the text vertically */
+    left: 0%; /* Adjust the left position to center the text horizontally */
+    transform: translate(-50%, -50%); /* Use transform to center the text precisely */
+    color: white;
+    text-align: center; /* Center the text within the container */
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    color: white ;
+    text-align: center;
+    line-height: 100px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.square:hover {
+    opacity: 1;
+}
